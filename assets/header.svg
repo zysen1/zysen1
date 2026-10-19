@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="520" viewBox="0 0 1080 520" role="img" aria-labelledby="title desc">
+  <title id="title">zysen1. Agents that remember, verify, and can be rewound.</title>
+  <desc id="desc">Masthead. Model, harness, and context, with the harness marked as the product.</desc>
+  <rect width="1080" height="520" fill="#12110f"/>
+  <rect width="1080" height="5" fill="#e25b45"/>
+  <text x="72" y="78" fill="#8d877c" font-family="Noto Sans, Liberation Sans, ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" letter-spacing="3.4">AGENT ENGINEER</text>
+  <text x="72" y="168" fill="#f4efe6" font-family="Georgia, Noto Serif Display, Liberation Serif, Palatino, Times New Roman, serif" font-size="88">zysen1</text>
+  <text x="72" y="220" fill="#f4efe6" font-family="Noto Sans, Liberation Sans, ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="26">remember<tspan fill="#e25b45">  &#183;  </tspan>verify<tspan fill="#e25b45">  &#183;  </tspan>rewind</text>
+  <text x="72" y="256" fill="#8d877c" font-family="Noto Sans, Liberation Sans, ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="16" letter-spacing="0.8">harness    &#183;    knowledge    &#183;    memory    &#183;    computer-use</text>
+  <rect x="72" y="312" width="280" height="132" fill="#23211e"/>
+  <text x="212" y="384" text-anchor="middle" fill="#f4efe6" font-family="Noto Sans, Liberation Sans, ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="22" letter-spacing="3.2">MODEL</text>
+  <rect x="376" y="292" width="328" height="172" fill="#e25b45"/>
+  <text x="540" y="372" text-anchor="middle" fill="#1a120f" font-family="Noto Sans, Liberation Sans, ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="26" letter-spacing="3.6">HARNESS</text>
+  <text x="540" y="406" text-anchor="middle" fill="#1a120f" font-family="Georgia, Noto Serif Display, Liberation Serif, Palatino, serif" font-size="18" font-style="italic">the product</text>
+  <rect x="728" y="312" width="280" height="132" fill="#23211e"/>
+  <text x="868" y="384" text-anchor="middle" fill="#f4efe6" font-family="Noto Sans, Liberation Sans, ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="22" letter-spacing="3.2">CONTEXT</text>
+</svg>
