@@ -17,66 +17,101 @@
   构建可靠的 AI Agent｜知识编译 · 记忆 · Computer-Use · 多智能体
 </p>
 
-An agent, the way I want to build one, is a model, a harness, and a context. Control lives in the harness. Knowledge and memory live in the context. The three repositories below are that sentence, and they are early.
+An agent, the way I build one, is a model, a harness, and a context. Control lives in the harness. Knowledge and memory live in the context. The repositories below are that sentence. Where the default branch has the code, the label is shipped, and the number is the one that repository's README reports, on the dataset named next to it.
 
-我想做的 Agent，就是模型、harness 和上下文。控制在 harness 里，知识和记忆在上下文里。下面三个仓库就是这句话，而且都很早。
+我想做的 Agent，就是模型、harness 和上下文。控制在 harness 里，知识和记忆在上下文里。下面这些仓库就是这句话。默认分支上有代码的，标成已发布。数字是那个仓库 README 里写的，旁边注明数据集。
 
 ## Now / 正在做
 
-- **[OntoWiki](https://github.com/zysen1/OntoWiki)** — types, time, and provenance on a compiled wiki.<br>
-  给编译出来的 wiki 加上类型、时间和溯源。
-- **[Rewind-CUA](https://github.com/zysen1/Rewind-CUA)** — computer-use that can be stopped and rolled back.<br>
-  能停下来、能倒带的电脑操作。
-- **[MAST-Scope](https://github.com/zysen1/MAST-Scope)** — a flight recorder for multi-agent failures.<br>
-  多智能体的黑匣子：检测、归因、修复。
+Three things are still open. Everything else in the catalog has code on its default branch.
+
+还有三件没做完。目录里的其余项目，默认分支上都有代码。
+
+- **[Proofline](https://github.com/zysen1/Proofline)** — proof receipts for agent pull requests. The repository exists. `main` is a license and a one-line README, so it stays WIP.<br>
+  agent 提交的 PR 要有证明回执。仓库在，`main` 上只有许可证和一行 README，所以仍是 WIP。
+- **MCP-Diet** — task-aware pruning of MCP tools, with an A/B eval. No repository yet.<br>
+  按任务裁剪 MCP 工具，并做 A/B 评测。还没有仓库。
+- **Egress-Ledger** — a per-version report of what a coding agent sends off the machine. No repository yet.<br>
+  每个版本一份透明度报告：coding agent 向外发了什么。还没有仓库。
 
 ## Flagship / 代表项目
 
-| Project | Direction | Status | Built on |
-| --- | --- | --- | --- |
-| [OntoWiki](https://github.com/zysen1/OntoWiki) | An LLM wiki whose claims have types, valid time, and provenance. A contradiction closes a claim instead of overwriting it. A background lint dreams through contradictions, stale pages, and broken links.<br><br>论断带类型、有效时间和出处。冲突把旧论断标为失效，保留历史。后台 lint 清扫矛盾、过期页和断链。 | WIP<br>fork · matches upstream<br>与上游提交一致 | [lucasastorian/llmwiki](https://github.com/lucasastorian/llmwiki) · Apache-2.0<br><br>Planned store: [Graphiti](https://github.com/getzep/graphiti) · Apache-2.0 |
-| [Rewind-CUA](https://github.com/zysen1/Rewind-CUA) | A computer-use harness with an action journal, a snapshot before the risky step, and an escalation when the next action is uncertain or hard to undo.<br><br>每个动作留日志，危险步骤前打快照。不确定，或这一步难以撤销，就升级。 | WIP<br>fork · matches upstream<br>与上游提交一致 | [trycua/cua](https://github.com/trycua/cua) · MIT |
-| [MAST-Scope](https://github.com/zysen1/MAST-Scope) | Detect a [MAST](https://arxiv.org/abs/2503.13657) failure while the run is live, name the first bad step, and attempt a repair.<br><br>运行中对照 MAST 发现失败，指出第一个出错的步骤，并尝试修复。 | WIP<br>scaffold<br>脚手架 | [OpenAI Agents SDK](https://github.com/openai/openai-agents-python) · MIT<br>[Inspect AI](https://github.com/UKGovernmentBEIS/inspect_ai) · MIT<br><br>Intended runtime and evals. Not imported yet.<br>预定的运行时和评测，尚未接入。 |
+Shipped means the code is on the default branch. It does not mean a customer is running it. Secondary development names the upstream. Original work says so.
 
-> **As of this page.** OntoWiki and Rewind-CUA are forks and still match upstream commit-for-commit. MAST-Scope is a license and a one-line README. The direction column is the plan. There is no benchmark number here that I have reproduced, and no merged upstream pull request with my name on it.
->
-> **写到这里时。** 两个 fork 的提交仍与上游完全一致。MAST-Scope 只有许可证和一行 README。方向栏是计划。这里没有我自己复现的评测数字，也没有我合入上游的 PR。
+「已发布」表示代码在默认分支上，不是说已经跑在客户那里。二次开发写明上游。原创就写原创。
 
 ```mermaid
 flowchart LR
-  OW["OntoWiki · WIP<br/>typed, temporal knowledge"]
-  RC["Rewind-CUA · WIP<br/>reversible computer-use"]
-  MS["MAST-Scope · WIP<br/>failure attribution"]
-  OW -.->|context · planned| RC
-  OW -.->|context · planned| MS
-  MS -.->|repair · planned| RC
+  KM["Knowledge<br/>OntoWiki"] --- CU["Computer use<br/>Rewind-CUA"] --- MR["Multi-agent<br/>MAST-Scope"] --- SG["Governance<br/>PermitTrace"] --- CI["Harness infra<br/>HarnessWatch"] --- FD["Deployment<br/>Tacit · Breakeven"]
 ```
 
-The edges are the plan. The calls are still to be written.
-连线是计划。调用还没写。
+A shelf, in one row, so the directions fit. The line is not a call graph.
+排成一排，是为了放下这些方向。这根线不是调用关系。
 
-## In the lab / 实验室
+### Knowledge & memory / 知识与记忆
 
-Planned. No repository yet.
-已计划，还没有仓库。
+| Project | What | Measured | Status | Built on |
+| --- | --- | --- | --- | --- |
+| [OntoWiki](https://github.com/zysen1/OntoWiki) | An ontology-constrained, bi-temporal wiki. Sources are compiled once. Later questions read the graph.<br><br>本体约束、带时间的 wiki。来源编译一次，之后的提问读这张图。 | **1.00 vs 0.75** answer hit against TF-IDF vector RAG (k=3). Context 77.8 vs 147.6 tokens.<br><br>8 hand-written questions over 13 notes. Self-built regression set, not a leaderboard. LightRAG was not run.<br><br>**1.00 对 0.75** 答案命中。上下文 77.8 对 147.6 token。<br>13 篇笔记上的 8 道手写题，自建回归集，不是排行榜。LightRAG 没有跑。 | Shipped<br>已发布 | [lucasastorian/llmwiki](https://github.com/lucasastorian/llmwiki) · Apache-2.0<br><br>Secondary development. The store is SQLite. Graphiti is an optional mirror. |
 
-- **Grounded-Hermes** — planned. A plugin for [Hermes Agent](https://github.com/NousResearch/hermes-agent) (MIT), not a fork: a ledger of what the two of us have actually confirmed, and memory with a permission boundary.
-  计划中。给 Hermes Agent 做插件，不另起一个 fork：一份「已确认 / 推测 / 过期」的共同认知账本，以及带权限的记忆。
-- **SWE-Bank** — planned. An experience bank on [mini-swe-agent](https://github.com/SWE-agent/mini-swe-agent) (MIT), following [Training-Free GRPO](https://arxiv.org/abs/2510.08191) and [ReasoningBank](https://arxiv.org/abs/2509.25140). The learning curve waits until I have run one.
-  计划中。在 mini-swe-agent 上积累推理记忆。学习曲线等我自己跑出来再画。
-- **mcp-warden** — planned. A Go gateway depending on [mcp-go](https://github.com/mark3labs/mcp-go) (MIT), not a fork of it: pin tool descriptions, authorize by agent identity, and bridge [MCP](https://github.com/modelcontextprotocol/modelcontextprotocol) to [A2A](https://github.com/a2aproject/A2A).
-  计划中。依赖 mcp-go 的 Go 网关，不是它的 fork：钉死工具描述、按 agent 身份授权、把 MCP 桥到 A2A。
+### Computer use / 电脑操作
+
+| Project | What | Measured | Status | Built on |
+| --- | --- | --- | --- | --- |
+| [Rewind-CUA](https://github.com/zysen1/Rewind-CUA) | An action journal, checkpoints, rewind, and escalation when the executor is unsure or policy says ask.<br><br>动作日志、检查点、回滚。执行者不确定，或策略要求询问时，升级。 | **6/6 vs 1/6** task success. Irreversible effects that stuck: 0 vs 3.<br><br>Six scripted tasks, no model. Cua-Bench and OSWorld were not run.<br><br>**6/6 对 1/6**。留下的不可逆副作用 0 对 3。<br>六个脚本任务，没有模型。Cua-Bench 和 OSWorld 没跑。 | Shipped<br>已发布 | [trycua/cua](https://github.com/trycua/cua) · MIT<br><br>Secondary development. The extension is `libs/rewind-cua`. |
+
+### Multi-agent reliability / 多智能体可靠性
+
+| Project | What | Measured | Status | Built on |
+| --- | --- | --- | --- | --- |
+| [MAST-Scope](https://github.com/zysen1/MAST-Scope) | Classify the failure, name the first bad step, repair that sub-task.<br><br>判定失败类型，指出第一个出错的步骤，只重规划那一个子任务。 | **1.00** primary-mode accuracy (15/15). Repair left 14/14 failure traces clean.<br><br>15 seeded incidents, self-built. Not the paper's MAST-Data (1,600+ traces).<br><br>主模式准确率 **1.00**（15/15）。14/14 条失败轨迹被修干净。<br>15 个种子事故，自建。不是论文的 MAST-Data（1600 多条）。 | Shipped<br>已发布 | Original · Apache-2.0<br><br>Uses the [OpenAI Agents SDK](https://github.com/openai/openai-agents-python), [LangGraph](https://github.com/langchain-ai/langgraph), [Agent Framework](https://github.com/microsoft/agent-framework), and [Inspect AI](https://github.com/UKGovernmentBEIS/inspect_ai). |
+
+### Agent security & governance / Agent 安全与治理
+
+| Project | What | Measured | Status | Built on |
+| --- | --- | --- | --- | --- |
+| [PermitTrace](https://github.com/zysen1/PermitTrace) | Every permission has a provenance. Trace the inducement, measure the blast radius, then allow, narrow, ask, or deny.<br><br>每一次放行都要有出处。溯源诱导、量爆炸半径，再决定放行、收窄、询问或拒绝。 | **100%** held-out high-risk detection (12/12 attacks), **8.3%** false positives (1/12 benign).<br><br>AllowRuleBench-mini held-out: 24 synthetic scenarios, self-built, shaped after arXiv:2610.22987. Not that paper's data.<br><br>留出集高风险检出 **100%**（12/12），误报 **8.3%**（1/12）。<br>AllowRuleBench-mini 留出集：24 个合成场景，自建，威胁模型参照 2610.22987。不是那篇论文的数据。 | Shipped<br>已发布 | Original · Apache-2.0<br><br>Go. Claude Code hooks are live. Codex CLI is not. |
+| [Proofline](https://github.com/zysen1/Proofline) | Don't trust the PR description. Demand a proof receipt for agent pull requests and parallel branches.<br><br>不要信 PR 描述。agent 的 PR 和并行分支要有证明回执。 | None. `main` has no code yet.<br><br>还没有。`main` 上没有代码。 | WIP<br>进行中 | Original · Apache-2.0 |
+| Egress-Ledger | A per-version transparency report of what a coding agent sends off the machine.<br><br>每个版本一份报告：coding agent 向外发了什么。 | None.<br><br>还没有。 | WIP<br>即将开始 | No repository yet.<br>还没有仓库。 |
+
+### Coding-agent infra / Coding-agent 基础设施
+
+| Project | What | Measured | Status | Built on |
+| --- | --- | --- | --- | --- |
+| [HarnessWatch](https://github.com/zysen1/HarnessWatch) | A behavioral weather report for a coding-agent release: what the harness started doing differently.<br><br>coding agent 每个版本的行为天气预报：harness 这次变得不一样的地方。 | **10/10** injected regressions detected, **0/13** false positives on stable controls.<br><br>Synthetic fixtures, 368 session files. Not captures from a vendor binary.<br><br>注入的回退 **10/10** 被检出，稳定对照误报 **0/13**。<br>合成夹具，368 个会话文件。不是从厂商二进制抓的。 | Shipped<br>已发布 | Original · Apache-2.0 |
+| [WebMCP-Retrofit](https://github.com/zysen1/WebMCP-Retrofit) | Record one pass through a site, turn the calls into [WebMCP](https://github.com/webmachinelearning/webmcp) tools, and check the contracts.<br><br>把网站录一遍，变成 WebMCP 工具，再核对契约还在不在。 | **93/93** contract checks. On the same run, one scripted order: 1,148 vs 37,572 estimated tokens, 35 ms vs 2,014 ms. No model was called.<br><br>Five self-built local sites.<br><br>契约检查 **93/93**。同一次运行里，一笔脚本下单：估算 token 1,148 对 37,572，35 ms 对 2,014 ms。没有调用模型。<br>五个自建本地站点。 | Shipped<br>已发布 | Original · Apache-2.0<br><br>TypeScript, against the WebMCP spec. |
+| MCP-Diet | Task-aware pruning of the MCP tools offered to an agent, scored with an A/B eval.<br><br>按任务裁掉递给 agent 的 MCP 工具，用 A/B 评测打分。 | None.<br><br>还没有。 | WIP<br>即将开始 | No repository yet.<br>还没有仓库。 |
+
+### FDE / 一线部署
+
+Forward-deployed work: the rules a business never wrote down, and the human hours of turning an agent on.
+
+一线部署：业务里没人写下来的规则，以及把 agent 打开之前的人工工时。
+
+| Project | What | Measured | Status | Built on |
+| --- | --- | --- | --- | --- |
+| [Tacit](https://github.com/zysen1/tacit-fde) | Mine the rules buried in a customer bundle, then compile them into the agent.<br><br>把客户资料里没写明的规则挖出来，编译进 agent。 | Held-out success **0.600 / 0.725 / 1.000** (no rules / explicit only / plus tacit).<br><br>Ten synthetic estates, five seeds × two templates, 40 held-out cases each. Not a customer archive. Recall of 1.0 is the generator's shape.<br><br>留出集成功率 **0.600 / 0.725 / 1.000**（无规则 / 仅显式 / 加上隐性）。<br>十个合成客户包，五个种子 × 两个模板，每次 40 道留出题。不是客户档案。召回 1.0 是生成器的形状。 | Shipped<br>已发布 | Original · Apache-2.0 |
+| [Breakeven](https://github.com/zysen1/Breakeven) | Freeze the cheapest oversight policy that clears a reliability target, then price the remaining human hours.<br><br>冻住「又够可靠、又最省」的监督策略，再给剩下的人工工时计价。 | **147.8 h vs 400 h** all-human, for the policy that goes live (Careful, 82% accurate). The plan that automates 90.5% costs **+23.1%** hours and misses the 95% target.<br><br>Synthetic Acme book, 2,000 cases, seed 7. Not a customer ledger, and not an industry ROI.<br><br>**147.8 对 400 小时**（稳妥，准确率 82%，可以上线）。自动化 90.5% 的方案工时 **+23.1%**，过不了 95%。<br>合成的 Acme 账本，2000 件，种子 7。不是客户台账，也不是行业回报率。 | Shipped<br>已发布 | Original · Apache-2.0 |
+
+## Next / 接下来
+
+MCP-Diet and Egress-Ledger are the two without a repository. They are marked WIP in the groups above. Earlier sketches — a Hermes plugin, a SWE experience bank, a Go MCP gateway — are not on this page.
+
+MCP-Diet 和 Egress-Ledger 还没有仓库，上面标了 WIP。更早的草稿不在这页上：Hermes 插件、SWE 经验库、Go 写的 MCP 网关。
 
 ## My take on where agents are going / 我对 Agent 走向的判断
 
-Seven judgments. Each one is pinned to a post, a repository, or a paper. Star counts stay off this page; they move.
+Seven judgments. Each one is pinned to a post, a repository, or a paper, and to a project on this page where I have one. Star counts stay off this page; they move.
 
-七个判断。每条都挂着帖子、仓库或论文。这一页不写 star 数，那个数字会变。
+七个判断。每条都挂着帖子、仓库或论文；这页上有对应项目的，也挂上。这一页不写 star 数，那个数字会变。
 
 ### 1 · The harness is the product
 
 **Harness 就是产品。** Agents = model + harness + context; the gains now come from context and control loops, not frameworks.
 现在的提升主要来自上下文和控制回路，而不是换一个框架。
+
+On this page that is [HarnessWatch](https://github.com/zysen1/HarnessWatch) for release drift, [Rewind-CUA](https://github.com/zysen1/Rewind-CUA) for the computer-use loop, and [MAST-Scope](https://github.com/zysen1/MAST-Scope) for the multi-agent one.
+在这页上，[HarnessWatch](https://github.com/zysen1/HarnessWatch) 看版本漂移，[Rewind-CUA](https://github.com/zysen1/Rewind-CUA) 是电脑操作的控制回路，[MAST-Scope](https://github.com/zysen1/MAST-Scope) 是多智能体的。
 
 - Harrison Chase — [agents = model + harness + context](https://x.com/hwchase17/status/2088653366335582629) (2026-08). [Claude Code and Manus share that shape: model + runtime + harness](https://x.com/hwchase17/status/2034297125417460044) (2026-03).
 - OpenAI — [the Agents SDK harness, open-sourced](https://x.com/OpenAIDevs/status/2044466699785920937) (2026-04); [the Codex harness](https://x.com/OpenAIDevs/status/2090230646497251387) (2026-08).
@@ -88,6 +123,9 @@ Seven judgments. Each one is pinned to a post, a repository, or a paper. Star co
 **知识要编译，而不是每次重新检索。** LLM-maintained wikis beat query-time RAG for accumulating synthesis — but they need types, time, and provenance.
 LLM Wiki 会让知识持续积累，但它需要本体、时间维度和溯源。
 
+[OntoWiki](https://github.com/zysen1/OntoWiki) is that compiler, on top of llmwiki. The 1.00 versus 0.75 is a closed set of eight questions. It is large enough to regress the compiler and too small to boast about.
+[OntoWiki](https://github.com/zysen1/OntoWiki) 就是这个编译器，建在 llmwiki 上。1.00 对 0.75 是八题的封闭集，够做回归，不够拿来吹。
+
 - Andrej Karpathy — [LLM Wiki](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f) (2026-04): raw sources, a wiki the model maintains, a schema. Three operations: ingest, query, lint. The personalization he argues for is [explicit and inspectable](https://x.com/karpathy/status/2040572272944324650).
 - Jerry Liu — [“Retrieval Harness is the 2026 version of RAG”](https://x.com/jerryjliu0/status/2071729856900215261). [The context layer may be one of the few moats of 2026](https://x.com/jerryjliu0/status/2053178322495152261).
 - Implementations — [llmwiki](https://github.com/lucasastorian/llmwiki), [llm-wiki-compiler](https://github.com/atomicstrata/llm-wiki-compiler), [nvk/llm-wiki](https://github.com/nvk/llm-wiki).
@@ -98,6 +136,9 @@ LLM Wiki 会让知识持续积累，但它需要本体、时间维度和溯源�
 
 **记忆应该放进 harness，并在后台离线整理（“做梦”）。**
 
+[OntoWiki](https://github.com/zysen1/OntoWiki)'s lint is that offline pass: it writes a review and does not edit the graph. [Tacit](https://github.com/zysen1/tacit-fde) is the other consolidation, mining rules out of a bundle and compiling them into the harness.
+[OntoWiki](https://github.com/zysen1/OntoWiki) 的 lint 就是这个离线过程：它写审阅，不改图。[Tacit](https://github.com/zysen1/tacit-fde) 是另一种整理，从资料包里挖规则，再编译进 harness。
+
 - Harrison Chase — memory never quite landed, he argues, because [it has to be built into the harness](https://x.com/hwchase17/status/2099858455079026817) (2026-09). The direction he flags is [dreaming, async sub-agents, heartbeats, and an agent that schedules itself](https://x.com/hwchase17/status/2110813795245249018) (2026-10). One instance: [openwiki reads traces and writes them back into a repository wiki](https://x.com/hwchase17/status/2082536230181650862).
 - In the wild — [claude-mem](https://github.com/thedotmack/claude-mem) compresses a session and injects it into the next. [ai-memory](https://github.com/akitaonrails/ai-memory) (Rust) shares long-term memory across coding harnesses.
 - Papers — [ReasoningBank](https://arxiv.org/abs/2509.25140), [Memento](https://arxiv.org/abs/2508.16153), [MemOS](https://arxiv.org/abs/2507.03724). The eval has to move with the claim: [downstream QA is not enough](https://arxiv.org/abs/2610.22209).
@@ -105,6 +146,9 @@ LLM Wiki 会让知识持续积累，但它需要本体、时间维度和溯源�
 ### 4 · Computer-use 2.0 is background, window-scoped, and reversible
 
 **Computer-Use 2.0：后台运行、按窗口操作、小模型执行，同时必须可监督、可回滚。**
+
+[Rewind-CUA](https://github.com/zysen1/Rewind-CUA) is the reversible half, on top of Cua. The 6/6 is six scripted tasks. It is not a Cua-Bench score.
+[Rewind-CUA](https://github.com/zysen1/Rewind-CUA) 是可回滚的那一半，建在 Cua 上。6/6 是六个脚本任务，不是 Cua-Bench 的分数。
 
 - Cua — the loop is leaving “screenshot plus cursor” for [window-scoped actions, orchestrated by a coding agent](https://x.com/trycua/status/2064744390615343480). They shipped [CUA-S1](https://x.com/trycua/status/2101014004927729737), a small model for computer-use decisions, and [trained it with RLOO on real tasks](https://x.com/trycua/status/2102800643794591833).
 - [Gemini 3.5 Flash has native computer use](https://x.com/GoogleDeepMind/status/2070180509523546481). On professional software the hit rate is still low. On 25 KiCad tasks in Cua-Bench, [Cua reports the best model finished 6](https://x.com/trycua/status/2066597808132776150). That figure is theirs.
@@ -117,6 +161,9 @@ LLM Wiki 会让知识持续积累，但它需要本体、时间维度和溯源�
 Role-play chat is giving way to async fleets and an orchestrator. Tracing is already common. Automatic detection, attribution, and repair are the open work.
 角色扮演式聊天正在让位给异步子 agent 舰队加编排。追踪已经常见。还没做完的是自动检测、归因和修复。
 
+[MAST-Scope](https://github.com/zysen1/MAST-Scope) is that missing piece on a seeded set: detect, blame, repair. The 1.00 is fifteen incidents, not the paper's 1,600 traces.
+[MAST-Scope](https://github.com/zysen1/MAST-Scope) 在种子集上补的就是这一块：检测、归因、修复。1.00 是十五个事故，不是论文的 1600 条轨迹。
+
 - [Orca](https://github.com/stablyai/orca) runs coding agents in parallel. [Simon Willison on the GPT-5.6 API](https://x.com/simonw/status/2075306164993315192): multi-agent and programmatic tool calling. DeepMind’s [Co-Scientist](https://x.com/GoogleDeepMind/status/2061857539977842793) generates, debates, and evolves.
 - [Why Do Multi-Agent LLM Systems Fail?](https://arxiv.org/abs/2503.13657) is the MAST taxonomy. [HTN-Orchestrate](https://arxiv.org/abs/2610.22195) is one way to replan the piece that failed.
 
@@ -125,8 +172,11 @@ Role-play chat is giving way to async fleets and an orchestrator. Tracing is alr
 **个人 Agent 和组织 Agent 会分化。** A personal agent needs shared ground — what the two of you have already confirmed — and memory with a permission boundary.
 个人 Agent 的关键是共同认知（彼此已经确认过什么），以及带权限的记忆。
 
+The company side of that split, here, is [Tacit](https://github.com/zysen1/tacit-fde) and [Breakeven](https://github.com/zysen1/Breakeven): the rules a workflow never wrote down, then the human hours of going live. The permission boundary that shipped is [PermitTrace](https://github.com/zysen1/PermitTrace).
+在这页上，组织这一侧是 [Tacit](https://github.com/zysen1/tacit-fde) 和 [Breakeven](https://github.com/zysen1/Breakeven)：流程里没写下来的规则，然后是上线的人工工时。已经发布的权限边界是 [PermitTrace](https://github.com/zysen1/PermitTrace)。
+
 - Harrison Chase separates [a company OS, many principals and one executor, from a personal agent](https://x.com/hwchase17/status/2104940633018577400).
-- The codebases I would extend, as plugins, are [Hermes Agent](https://github.com/NousResearch/hermes-agent) and [OpenBot](https://github.com/CopilotKit/OpenBot).
+- The personal-agent codebases in the wild are [Hermes Agent](https://github.com/NousResearch/hermes-agent) and [OpenBot](https://github.com/CopilotKit/OpenBot). I have not shipped a plugin for either.
 - [Knowing the User Is Not Knowing What We Established](https://arxiv.org/abs/2610.18684). [X-AgentRed](https://arxiv.org/abs/2610.13886) red-teams the personal agent. [SAFE-Mem](https://arxiv.org/abs/2610.22959) puts a fine-grained authority on each memory.
 
 ### 7 · Self-improve in context first, RL second
@@ -134,38 +184,42 @@ Role-play chat is giving way to async fleets and an orchestrator. Tracing is alr
 **先在上下文层自我改进，再上 RL。** A large share of the gain is available before any weight update. Train when the context loop runs out of road.
 很大一部分收益，在改权重之前就能拿到。上下文这条路走到头，再训练。
 
+Every number in the tables above was measured with the weights left alone.
+上面表里的每个数字，都是在没改权重的情况下测的。
+
 - Before a gradient: [Training-Free Group Relative Policy Optimization](https://arxiv.org/abs/2510.08191), [Agentic Context Engineering](https://arxiv.org/abs/2510.04618), [ReasoningBank](https://arxiv.org/abs/2509.25140).
 - When training is the right next step: [ART](https://github.com/OpenPipe/ART), [Agent Lightning](https://github.com/microsoft/agent-lightning), [verl](https://github.com/verl-project/verl). Cua’s [RLOO run](https://x.com/trycua/status/2102800643794591833) is the shape I trust: a small model, a real environment, a harness that already exists.
 
 ## Stack / 技术栈
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=py,ts,nextjs,rust,go,fastapi&perline=6" alt="Python, TypeScript, Next.js, Rust, Go, FastAPI">
+  <img src="https://skillicons.dev/icons?i=py,ts,nextjs,rust,go&perline=5" alt="Python, TypeScript, Next.js, Rust, Go">
 </p>
 
 <p align="center">
   <a href="https://github.com/modelcontextprotocol/modelcontextprotocol"><img alt="MCP" src="https://img.shields.io/badge/MCP-1b1914?style=flat-square"></a>
-  <a href="https://github.com/a2aproject/A2A"><img alt="A2A" src="https://img.shields.io/badge/A2A-1b1914?style=flat-square"></a>
+  <a href="https://github.com/webmachinelearning/webmcp"><img alt="WebMCP" src="https://img.shields.io/badge/WebMCP-1b1914?style=flat-square"></a>
   <a href="https://github.com/openai/openai-agents-python"><img alt="OpenAI Agents SDK" src="https://img.shields.io/badge/OpenAI_Agents_SDK-1b1914?style=flat-square"></a>
   <a href="https://github.com/UKGovernmentBEIS/inspect_ai"><img alt="Inspect AI" src="https://img.shields.io/badge/Inspect_AI-1b1914?style=flat-square"></a>
-  <a href="https://github.com/getzep/graphiti"><img alt="Graphiti" src="https://img.shields.io/badge/Graphiti-1b1914?style=flat-square"></a>
-  <a href="https://github.com/open-telemetry/opentelemetry-specification"><img alt="OpenTelemetry" src="https://img.shields.io/badge/OpenTelemetry-1b1914?style=flat-square"></a>
 </p>
 
-The icons are the languages these repositories will actually be written in. The row under them is the protocol and runtime layer around that code.
+The icons are languages in the shipped repositories. The badges are protocols and runtimes those repositories actually sit on.
 
-图标是这些仓库真正会用的语言。下面一排是围着这些代码的协议和运行时。
+图标是已发布仓库里的语言。徽章是这些仓库真正接上的协议和运行时。
 
 | Piece | Where it earns a place |
 | --- | --- |
-| Python, FastAPI | Agent core, wiki lint, detectors, evals. |
-| TypeScript, Next.js | The graph, the timeline, and the trace view, once those interfaces exist. |
-| Rust | Action journal and snapshot coordination, beside the Cua driver. |
-| Go | mcp-warden, when it starts. One binary for a gateway. |
-| MCP, A2A | How tools and agents meet the work. OntoWiki’s planned surface is `wiki.query`, `wiki.ingest`, and `wiki.at(time)`. |
-| OpenAI Agents SDK, Inspect AI | MAST-Scope’s runtime and its offline tasks. Adapters for [LangGraph](https://github.com/langchain-ai/langgraph) and the [Agent Framework](https://github.com/microsoft/agent-framework) are planned, and not written yet. |
-| Graphiti | Planned bi-temporal store for OntoWiki. |
-| OpenTelemetry | Planned trace export from MAST-Scope. Langfuse is the likely sink. |
+| Python | OntoWiki, MAST-Scope, HarnessWatch, Tacit, Breakeven. |
+| TypeScript, Next.js | OntoWiki's timeline, MAST-Scope's replay, WebMCP-Retrofit. |
+| Rust | Rewind-CUA's journal, checkpoints, and policy, beside the Cua driver. |
+| Go | PermitTrace. |
+| MCP | OntoWiki's query, claim, provenance, `at`, and lint. Tacit compiles a FastMCP server. |
+| WebMCP | WebMCP-Retrofit, checked against the spec. |
+| OpenAI Agents SDK, LangGraph, Agent Framework, Inspect AI | MAST-Scope's adapters and the offline eval. |
+| SQLite | OntoWiki's bi-temporal graph. Graphiti is an optional mirror, not the store. |
+
+A2A is not wired in a shipped repository here.
+这页已发布的仓库里没有接上 A2A。
 
 ## Reading / 书单
 
@@ -179,8 +233,8 @@ One paper per judgment. The links above are the rest of the shelf.
    同一任务采样多条轨迹，按相对优势更新经验，权重不动。
 3. **[Single-Round Vector RAG vs an LLM-Compiled Wiki](https://arxiv.org/abs/2605.18490)** (2026). A preregistered comparison.<br>
    预注册的对照。
-4. **[Why Do Multi-Agent LLM Systems Fail?](https://arxiv.org/abs/2503.13657)** (2025). The MAST taxonomy MAST-Scope is aimed at.<br>
-   MAST-Scope 要对着的失败分类。
+4. **[Why Do Multi-Agent LLM Systems Fail?](https://arxiv.org/abs/2503.13657)** (2025). The MAST taxonomy MAST-Scope is scored against, on a seeded set rather than the paper's traces.<br>
+   MAST-Scope 对着的失败分类。打分用的是种子集，不是论文的轨迹。
 5. **[LEASH: Uncertainty-Aware Weak-to-Strong Escalation and Oversight for Computer-Use Agents](https://arxiv.org/abs/2610.22280)** (2026). When the step is unsure, hand it up.<br>
    这一步不确定，就交上去。
 6. **[Task-State Governance: A Virtual Machine for Verifiable and Recoverable GUI Agent Execution](https://arxiv.org/abs/2610.20100)** (2026). Check the state, then restore it.<br>
@@ -194,6 +248,6 @@ Field note, separate from the papers: Karpathy’s [LLM Wiki](https://gist.githu
 
 ---
 
-Forks keep the upstream license. Until there is something of mine at the top of those READMEs, the upstream README is still the upstream README. This page changes when the code does.
+Forks keep the upstream license. The numbers above are copied from each repository's README, and the dataset is the one that README names. Proofline's default branch is still a license and a sentence. MCP-Diet and Egress-Ledger have no repository yet.
 
-Fork 保留上游许可证。在我自己的部分写进那些 README 顶部之前，上游的 README 仍然是上游的。代码变了，这一页再改。
+Fork 保留上游许可证。上面的数字抄自各仓库的 README，数据集也是 README 里写的那个。Proofline 的默认分支仍是许可证加一句话。MCP-Diet 和 Egress-Ledger 还没有仓库。
