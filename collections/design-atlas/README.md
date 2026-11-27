@@ -8,6 +8,17 @@
 
 **带走这份清单**　在文件页选择 **Download raw file** 下载 [bookmarks.html](bookmarks.html)，在浏览器的书签管理中选择“从 HTML 文件导入”，即可得到分好类的书签。做知识库或接自己的工具，可直接取 [catalog.json](catalog.json)。
 
+## 跟视频打开这六个具体示例
+
+| 视频中出现的镜头 | 打开同一页，然后动手试 |
+| --- | --- |
+| 手绘兔子变成点阵和网格 | 比较三种造型里耳朵和背的轮廓，再回开头看运动。[Oddfellows × Figma · Config 短片与过程稿](https://oddfellows.tv/work/figma) |
+| 蓝绿弧片聚成团，镜头推近半透明表面 | 停在曲面叠起来的瞬间，再翻下方风格帧，找出叠色的位置。[Ordinary Folk · Equilibrium](https://www.ordinaryfolk.co/project/equilibrium) |
+| 给法拉利换漆并绕到侧后方 | 拖动画布旋转视角，用 Body 改车身颜色。模型作者 vicent091036。[Three.js · Car materials](https://threejs.org/examples/webgl_materials_car.html) |
+| 两张卡片同时到，半程分别走完 50% 和 87.5% | 对照匀速与三次缓出，分别用同一个入场动作试一次。[Easings.net · easeOutCubic](https://easings.net/zh-cn#easeOutCubic) |
+| 同一行中文字先变粗，再收窄 | 选中标题，依次拖动 Weight 和 Width。样张使用方正悠黑，页面来自 Axis-Praxis。[打开中文可变字样张](https://www.axis-praxis.org/specimens/foundertypeyouhei) |
+| 同一张页面只换主色 | 打开两份参数对照，比较按钮与大色块，检查正文与背景。[蓝紫版](https://www.realtimecolors.com/?colors=050315-fbfbfe-2f27ce-dedcff-433bff&fonts=Inter-Inter) · [砖红版](https://www.realtimecolors.com/?colors=050315-fbfbfe-c54a24-dedcff-433bff&fonts=Inter-Inter) |
+
 ## 今天要解决什么问题？
 
 | 手上的工作 | 先看什么 | 用自己的项目试一次 |
