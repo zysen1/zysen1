@@ -1,0 +1,906 @@
+{
+  "title": "设计审美参考站",
+  "source_post": "https://x.com/EianLu/status/2121219503988113557",
+  "source_article": "https://x.com/i/article/2121110864367661056",
+  "source_author": "EianLu",
+  "source_title": "100 个提升审美的设计网站大赏",
+  "updated": "2026-11-27",
+  "resources": [
+    {
+      "id": 1,
+      "collection": "原帖",
+      "category": "大赛与奖项",
+      "name": "Pwnisher 3D 渲染挑战赛",
+      "url": "https://www.youtube.com/@pwnisher",
+      "try_it": "挑同一届挑战的三个投稿，暂停在角色落脚的同一帧，比较空间尺度、主光方向和视线落点。"
+    },
+    {
+      "id": 2,
+      "collection": "原帖",
+      "category": "大赛与奖项",
+      "name": "Awwwards",
+      "url": "https://www.awwwards.com/",
+      "try_it": "点开一件获奖网站，再进真实站点。用手机和电脑各看一遍首屏，记下窄屏时被优先保留的信息。"
+    },
+    {
+      "id": 3,
+      "collection": "原帖",
+      "category": "大赛与奖项",
+      "name": "CSS Design Awards",
+      "url": "https://www.cssdesignawards.com/",
+      "try_it": "找一个获奖首页，把首屏缩成缩略图，检查最先认出的究竟是品牌、标题还是行动按钮。"
+    },
+    {
+      "id": 4,
+      "collection": "原帖",
+      "category": "大赛与奖项",
+      "name": "The FWA",
+      "url": "https://thefwa.com/",
+      "try_it": "打开一个互动获奖项目，记录从加载结束到第一次主动操作之间，画面怎样暗示“可以动手”。"
+    },
+    {
+      "id": 5,
+      "collection": "原帖",
+      "category": "大赛与奖项",
+      "name": "The Motion Awards",
+      "url": "https://motionawards.com/",
+      "try_it": "从获奖片里抽开头、中段和收尾三帧，标出贯穿全片的字形、颜色或运动方向。"
+    },
+    {
+      "id": 6,
+      "collection": "原帖",
+      "category": "大赛与奖项",
+      "name": "Apple Design Awards",
+      "url": "https://developer.apple.com/design/awards/",
+      "try_it": "读一款获奖应用的评语，再回到应用截图，指出哪个可见细节支撑了评委的判断。"
+    },
+    {
+      "id": 7,
+      "collection": "原帖",
+      "category": "大赛与奖项",
+      "name": "D&AD",
+      "url": "https://www.dandad.org/",
+      "try_it": "从黄铅笔获奖档案找一个品牌项目，看同一识别元素怎样同时落到海报、包装和小屏幕上。"
+    },
+    {
+      "id": 8,
+      "collection": "原帖",
+      "category": "大赛与奖项",
+      "name": "The One Show & ADC",
+      "url": "https://www.oneclub.org/",
+      "try_it": "同看一件广告的创意说明与最终画面，试着用一句话讲清创意；若讲不出，再看画面删去了什么。"
+    },
+    {
+      "id": 9,
+      "collection": "原帖",
+      "category": "大赛与奖项",
+      "name": "Runway AI Film Festival",
+      "url": "https://aif.runwayml.com/",
+      "try_it": "进影展选一支 AI 短片，标记角色或场景跨镜头仍可辨认的线索，给自己的分镜定一条连续性规则。"
+    },
+    {
+      "id": 10,
+      "collection": "原帖",
+      "category": "大赛与奖项",
+      "name": "Tokyo TDC",
+      "url": "https://tokyotypedirectorsclub.org/",
+      "try_it": "挑一张字体作品，分别遮住文字和背景，判断版面主要靠字形、字距还是空白撑起来。"
+    },
+    {
+      "id": 11,
+      "collection": "原帖",
+      "category": "大赛与奖项",
+      "name": "Annecy 安纳西国际动画节",
+      "url": "https://www.annecyfestival.com/",
+      "try_it": "从动画节片单找两支不同画风的预告，暂停在相同景别，比较轮廓和运动姿态的表现力。"
+    },
+    {
+      "id": 12,
+      "collection": "原帖",
+      "category": "大赛与奖项",
+      "name": "Ciclope Festival",
+      "url": "https://www.ciclopefestival.com/",
+      "try_it": "按摄影或剪辑等工种看获奖片，同一支广告只跟踪一项手艺，例如光线如何引导产品出场。"
+    },
+    {
+      "id": 13,
+      "collection": "原帖",
+      "category": "动态设计与视频",
+      "name": "Motionographer",
+      "url": "https://motionographer.com/",
+      "try_it": "挑一篇动态项目介绍，口头复述片头第一次视觉转折，记清是镜头切了、形状变了还是主体动了。"
+    },
+    {
+      "id": 14,
+      "collection": "原帖",
+      "category": "动态设计与视频",
+      "name": "STASH",
+      "url": "https://www.stashmedia.tv/",
+      "try_it": "将成片和幕后演示放在相邻窗口，找一处最终镜头里最不起眼、制作过程却最关键的图层。"
+    },
+    {
+      "id": 15,
+      "collection": "原帖",
+      "category": "动态设计与视频",
+      "name": "Art of the Title",
+      "url": "https://www.artofthetitle.com/",
+      "try_it": "选一部熟悉的片头，对照主创访谈和画面，找出剧名第一次出现之前已经埋下的视觉线索。"
+    },
+    {
+      "id": 16,
+      "collection": "原帖",
+      "category": "动态设计与视频",
+      "name": "Vimeo Staff Picks",
+      "url": "https://vimeo.com/channels/staffpicks",
+      "try_it": "看一支编辑精选短片，先关声音判断转场，再开声音辨认哪些剪辑点靠音效才成立。"
+    },
+    {
+      "id": 17,
+      "collection": "原帖",
+      "category": "动态设计与视频",
+      "name": "Behance 动态设计专区",
+      "url": "https://www.behance.net/galleries/motion",
+      "try_it": "在动态项目页里找过程图，将情绪板、风格帧和成片里同一个镜头按顺序排好。"
+    },
+    {
+      "id": 18,
+      "collection": "原帖",
+      "category": "动态设计与视频",
+      "name": "Short of the Week",
+      "url": "https://www.shortoftheweek.com/",
+      "try_it": "用短片的前三十秒练叙事，分别记下观众首次知道人物身份、地点与冲突的时刻。"
+    },
+    {
+      "id": 19,
+      "collection": "原帖",
+      "category": "动态设计与视频",
+      "name": "Directors Notes",
+      "url": "https://directorsnotes.com/",
+      "try_it": "把导演访谈中的一条拍摄限制写到分镜旁，看看成片用哪个构图或场面调度解决了它。"
+    },
+    {
+      "id": 20,
+      "collection": "原帖",
+      "category": "动态设计与视频",
+      "name": "Sakugabooru",
+      "url": "https://www.sakugabooru.com/",
+      "try_it": "把同类动作的两个作画片段循环播放，比较预备动作占几帧、受力后的形变停多久。"
+    },
+    {
+      "id": 21,
+      "collection": "原帖",
+      "category": "动态设计与视频",
+      "name": "Promonews",
+      "url": "https://www.promonews.tv/",
+      "try_it": "挑一支音乐录像带，听主拍与看切点，找一次导演刻意晚半拍切镜的地方。"
+    },
+    {
+      "id": 22,
+      "collection": "原帖",
+      "category": "动态设计与视频",
+      "name": "BUCK",
+      "url": "https://buck.co/",
+      "try_it": "从一个品牌案例里分别截出字体、角色和运动轨迹，查看三者用什么共同规则维持辨识度。"
+    },
+    {
+      "id": 23,
+      "collection": "原帖",
+      "category": "动态设计与视频",
+      "name": "ManvsMachine",
+      "url": "https://mvsm.com/",
+      "try_it": "观察一条产品片里高光怎样沿边缘移动；把产品暂时想成黑色剪影，还能不能认出它？"
+    },
+    {
+      "id": 24,
+      "collection": "原帖",
+      "category": "动态设计与视频",
+      "name": "Oddfellows",
+      "url": "https://oddfellows.tv/",
+      "try_it": "截取角色准备起跳、腾空和落地三帧，比较身体轮廓在最重和最轻时各是什么形状。"
+    },
+    {
+      "id": 25,
+      "collection": "原帖",
+      "category": "动态设计与视频",
+      "name": "Golden Wolf",
+      "url": "https://www.goldenwolf.tv/",
+      "try_it": "慢放一个高速度镜头，标出主体穿出画面的边缘，看下一镜头从哪一侧把视线接回来。"
+    },
+    {
+      "id": 26,
+      "collection": "原帖",
+      "category": "动态设计与视频",
+      "name": "Ordinary Folk",
+      "url": "https://www.ordinaryfolk.co/",
+      "try_it": "用几何形状临摹一个转场的起点和终点，再补中间一帧，检查形状的重心能否自然衔接。"
+    },
+    {
+      "id": 27,
+      "collection": "原帖",
+      "category": "3D 与渲染",
+      "name": "ArtStation",
+      "url": "https://www.artstation.com/",
+      "try_it": "找带制作分解的角色或环境项目，翻到灰模图，观察轮廓和层次在去掉贴图后是否成立。"
+    },
+    {
+      "id": 28,
+      "collection": "原帖",
+      "category": "3D 与渲染",
+      "name": "The Rookies",
+      "url": "https://www.therookies.co/",
+      "try_it": "从学生作品集选一件完整项目，记录从草图、模型到最终渲染各阶段解决的具体问题。"
+    },
+    {
+      "id": 29,
+      "collection": "原帖",
+      "category": "3D 与渲染",
+      "name": "80 Level",
+      "url": "https://80.lv/",
+      "try_it": "搜一种想做的效果，例如湿路面；从制作拆解中单独提取粗糙度、反射或主光的一项做实验。"
+    },
+    {
+      "id": 30,
+      "collection": "原帖",
+      "category": "3D 与渲染",
+      "name": "Sketchfab",
+      "url": "https://sketchfab.com/",
+      "try_it": "旋转可交互模型，从正面、侧面、背面各停一次，比较哪些细节只对特定镜头有用。"
+    },
+    {
+      "id": 31,
+      "collection": "原帖",
+      "category": "3D 与渲染",
+      "name": "befores & afters",
+      "url": "https://beforesandafters.com/",
+      "try_it": "找一篇特效镜头幕后访谈，对照拍摄现场与成片，标出实拍、替换和合成分别落在哪个区域。"
+    },
+    {
+      "id": 32,
+      "collection": "原帖",
+      "category": "3D 与渲染",
+      "name": "fxguide",
+      "url": "https://www.fxguide.com/",
+      "try_it": "用一个影片名找制作访谈，顺着“现场如何拍”和“后期如何接”两步理清一条镜头的制作路径。"
+    },
+    {
+      "id": 33,
+      "collection": "原帖",
+      "category": "3D 与渲染",
+      "name": "Blender Studio",
+      "url": "https://studio.blender.org/",
+      "try_it": "选开放电影中的一个场景，顺着制作资料观察布局、动画和最终灯光如何逐步建立情绪。"
+    },
+    {
+      "id": 34,
+      "collection": "原帖",
+      "category": "3D 与渲染",
+      "name": "Poly Haven",
+      "url": "https://polyhaven.com/",
+      "try_it": "为同一枚材质球换两种 HDRI；锁定相机和材质，从反光形状判断环境光对体积感的影响。"
+    },
+    {
+      "id": 35,
+      "collection": "原帖",
+      "category": "3D 与渲染",
+      "name": "Beeple Everydays",
+      "url": "https://beeple-crap.com/everydays",
+      "try_it": "从连续日更图里挑一个反复出现的题材，对比作者如何只用地平线或尺度变化改写构图。"
+    },
+    {
+      "id": 36,
+      "collection": "原帖",
+      "category": "电影画面与镜头参考",
+      "name": "ShotDeck",
+      "url": "https://shotdeck.com/",
+      "try_it": "给分镜提一个具体条件，例如“室内逆光近景”，用电影帧对照面部亮度与背景的关系。"
+    },
+    {
+      "id": 37,
+      "collection": "原帖",
+      "category": "电影画面与镜头参考",
+      "name": "FILMGRAB",
+      "url": "https://film-grab.com/",
+      "try_it": "沿一部片的图片序列向下看，把远景与近景分开，找出人物情绪变化时景别跟着变的地方。"
+    },
+    {
+      "id": 38,
+      "collection": "原帖",
+      "category": "电影画面与镜头参考",
+      "name": "StillsLab",
+      "url": "https://stillslab.com/",
+      "try_it": "按景别和光线缩小范围，找同类画面，对比正面光与侧面光怎样改变背景的可见程度。"
+    },
+    {
+      "id": 39,
+      "collection": "原帖",
+      "category": "电影画面与镜头参考",
+      "name": "Flim",
+      "url": "https://flim.ai/",
+      "try_it": "把想拍的画面写成一句具体搜索词，再替换其中一个名词或方位词，比较两组结果。"
+    },
+    {
+      "id": 40,
+      "collection": "原帖",
+      "category": "电影画面与镜头参考",
+      "name": "EyeCannndy",
+      "url": "https://eyecannndy.com/",
+      "try_it": "点开一个镜头手法，看三个不同行业的示例；在切点前后各停一格，画出两帧共享的形状。"
+    },
+    {
+      "id": 41,
+      "collection": "原帖",
+      "category": "电影画面与镜头参考",
+      "name": "StudioBinder 镜头语言指南",
+      "url": "https://www.studiobinder.com/blog/ultimate-guide-to-camera-shots/",
+      "try_it": "用同一段对话试写全景、中景、特写三个镜头，拿指南的景别示例检查各自传递了什么。"
+    },
+    {
+      "id": 42,
+      "collection": "原帖",
+      "category": "电影画面与镜头参考",
+      "name": "American Cinematographer",
+      "url": "https://theasc.com/",
+      "try_it": "读一篇摄影师访谈，找出“为什么这么布光”的一处解释，将它翻成给现场灯光师的指令。"
+    },
+    {
+      "id": 43,
+      "collection": "原帖",
+      "category": "UI 设计",
+      "name": "Mobbin",
+      "url": "https://mobbin.com/",
+      "try_it": "对照三款应用的同类页面，只抄录信息顺序，看看用户在看到价格前已获得哪些解释。"
+    },
+    {
+      "id": 44,
+      "collection": "原帖",
+      "category": "UI 设计",
+      "name": "Page Flows",
+      "url": "https://pageflows.com/",
+      "try_it": "跟着一次注册或结账流程看完整段录像，记下用户输入错误时系统把焦点带回哪里。"
+    },
+    {
+      "id": 45,
+      "collection": "原帖",
+      "category": "UI 设计",
+      "name": "Refero",
+      "url": "https://refero.design/",
+      "try_it": "搜一个具体界面任务，例如搜索结果页；对比过滤条件放在哪里，哪些选项需要再点一次。"
+    },
+    {
+      "id": 46,
+      "collection": "原帖",
+      "category": "UI 设计",
+      "name": "Nicelydone",
+      "url": "https://nicelydone.club/",
+      "try_it": "研究后台产品的空状态：页面在用户还没添加第一条数据时，如何说明下一步能做什么？"
+    },
+    {
+      "id": 47,
+      "collection": "原帖",
+      "category": "UI 设计",
+      "name": "SaaSFrame",
+      "url": "https://www.saasframe.io/",
+      "try_it": "把三个软件官网的定价区并排看，对照它们如何呈现月付、年付和方案差异，自己重排一次。"
+    },
+    {
+      "id": 48,
+      "collection": "原帖",
+      "category": "UI 设计",
+      "name": "Figma Community",
+      "url": "https://www.figma.com/community",
+      "try_it": "找一个带组件变体的社区文件，检查默认、悬停、禁用三个状态如何共用同一套尺寸规则。"
+    },
+    {
+      "id": 49,
+      "collection": "原帖",
+      "category": "UI 设计",
+      "name": "Apple 人机界面指南（HIG）",
+      "url": "https://developer.apple.com/design/human-interface-guidelines/",
+      "try_it": "设计系统弹窗前先查平台规范，核对主要操作、取消操作和破坏性操作的命名与层级。"
+    },
+    {
+      "id": 50,
+      "collection": "原帖",
+      "category": "UI 设计",
+      "name": "Material Design 3",
+      "url": "https://m3.material.io/",
+      "try_it": "比较两种强调程度不同的按钮，再把它们放回同一屏，决定哪一个动作最值得被优先看到。"
+    },
+    {
+      "id": 51,
+      "collection": "原帖",
+      "category": "UI 设计",
+      "name": "Vercel Web Interface Guidelines",
+      "url": "https://vercel.com/design/guidelines",
+      "try_it": "从指南挑一项检查自己的网页，例如只用键盘走完表单，看看焦点有没有在中间消失。"
+    },
+    {
+      "id": 52,
+      "collection": "原帖",
+      "category": "UI 设计",
+      "name": "Impeccable",
+      "url": "https://impeccable.style/",
+      "try_it": "拿自己的 AI 初稿做一次界面评审，把“太花”改成可执行的问题，例如去掉重复描边、拉开标题层级。"
+    },
+    {
+      "id": 53,
+      "collection": "原帖",
+      "category": "UI 设计",
+      "name": "The Component Gallery",
+      "url": "https://component.gallery/",
+      "try_it": "挑一个组件查不同设计系统的叫法和行为，写清它什么时候使用、什么时候容易误用。"
+    },
+    {
+      "id": 54,
+      "collection": "原帖",
+      "category": "UI 设计",
+      "name": "60fps",
+      "url": "https://60fps.design/",
+      "try_it": "循环看一段界面动画，记下按钮按下、内容变化和反馈完成的先后顺序。"
+    },
+    {
+      "id": 55,
+      "collection": "原帖",
+      "category": "UI 设计",
+      "name": "Spotted in Prod",
+      "url": "https://www.spottedinprod.com/",
+      "try_it": "找一个真实产品中的小交互，关掉声音重看，检查光靠位移、颜色或形状能否解释状态变化。"
+    },
+    {
+      "id": 56,
+      "collection": "原帖",
+      "category": "UI 设计",
+      "name": "Growth.Design",
+      "url": "https://growth.design/",
+      "try_it": "沿一个产品体验案例逐步往后看，记下用户做选择前看到的提示，尝试把它改写得更直白。"
+    },
+    {
+      "id": 57,
+      "collection": "原帖",
+      "category": "UI 设计",
+      "name": "Laws of UX",
+      "url": "https://lawsofux.com/",
+      "try_it": "选一条体验原则，例如 Fitts 定律，用自己的界面举例：目标够不够大、相邻按钮会不会误触？"
+    },
+    {
+      "id": 58,
+      "collection": "原帖",
+      "category": "UI 设计",
+      "name": "Game UI Database",
+      "url": "https://www.gameuidatabase.com/",
+      "try_it": "比较不同游戏中的暂停菜单，看最常用操作是否能在不阅读全部条目的情况下被发现。"
+    },
+    {
+      "id": 59,
+      "collection": "原帖",
+      "category": "网页灵感",
+      "name": "Recent（原 Godly）",
+      "url": "https://recent.design/",
+      "try_it": "从收录站点里选一个首屏，记下文字、背景和可点击区域的层级，再进入原站试操作。"
+    },
+    {
+      "id": 60,
+      "collection": "原帖",
+      "category": "网页灵感",
+      "name": "Siteinspire",
+      "url": "https://www.siteinspire.com/",
+      "try_it": "按想做的风格或页面类型找三个站，只看导航位置与网格宽度，先给自己的内容搭一个骨架。"
+    },
+    {
+      "id": 61,
+      "collection": "原帖",
+      "category": "网页灵感",
+      "name": "Land-book",
+      "url": "https://land-book.com/",
+      "try_it": "筛一个行业，比较三张着陆页首屏如何在标题附近处理产品图，哪一张缩小后仍看得懂？"
+    },
+    {
+      "id": 62,
+      "collection": "原帖",
+      "category": "网页灵感",
+      "name": "Landingfolio",
+      "url": "https://www.landingfolio.com/",
+      "try_it": "找同一种页面区块，例如客户评价，用自己的长短两组文案试排，检查布局是否经得起换内容。"
+    },
+    {
+      "id": 63,
+      "collection": "原帖",
+      "category": "网页灵感",
+      "name": "awesome-design-md",
+      "url": "https://github.com/VoltAgent/awesome-design-md",
+      "try_it": "打开一份设计 Markdown，抽出字号、色值与间距三条规则，整理成自己的设计说明供后续生成。"
+    },
+    {
+      "id": 64,
+      "collection": "原帖",
+      "category": "网页灵感",
+      "name": "One Page Love",
+      "url": "https://onepagelove.com/",
+      "try_it": "找一页式介绍，手绘从标题、证明到行动按钮的阅读路径，数一数中途插了几次岔路。"
+    },
+    {
+      "id": 65,
+      "collection": "原帖",
+      "category": "网页灵感",
+      "name": "Minimal Gallery",
+      "url": "https://minimal.gallery/",
+      "try_it": "挑同样文字量的一张极简网站，比较正文宽度和段间距，试着只靠空间重排自己的信息。"
+    },
+    {
+      "id": 66,
+      "collection": "原帖",
+      "category": "网页灵感",
+      "name": "Dark Mode Design",
+      "url": "https://www.darkmodedesign.com/",
+      "try_it": "比较三个深色界面中的正文、次要文字和边框，检查哪一级亮度最适合留下视觉焦点。"
+    },
+    {
+      "id": 67,
+      "collection": "原帖",
+      "category": "网页灵感",
+      "name": "Hoverstat.es",
+      "url": "https://www.hoverstat.es/",
+      "try_it": "挑一项实验交互，先猜下一次悬停会发生什么，再动手试，判断它是惊喜还是找不到入口。"
+    },
+    {
+      "id": 68,
+      "collection": "原帖",
+      "category": "网页灵感",
+      "name": "Web Design Museum",
+      "url": "https://www.webdesignmuseum.org/",
+      "try_it": "翻一张旧网站的页面存档，找当时的导航暗示与今天移动端仍在沿用的做法。"
+    },
+    {
+      "id": 69,
+      "collection": "原帖",
+      "category": "前端与交互",
+      "name": "Codrops",
+      "url": "https://tympanus.net/codrops/",
+      "try_it": "打开有 Live Demo 的教程，先体验完整效果，再回到讲解按“触发、变化、结束”拆成三步。"
+    },
+    {
+      "id": 70,
+      "collection": "原帖",
+      "category": "前端与交互",
+      "name": "CodePen Spark",
+      "url": "https://codepen.io/spark",
+      "try_it": "沿一期 Spark 找一个可运行的小作品，只改一项颜色或时长，观察改动是否影响阅读。"
+    },
+    {
+      "id": 71,
+      "collection": "原帖",
+      "category": "前端与交互",
+      "name": "GSAP 官方 Demo 库",
+      "url": "https://demos.gsap.com/",
+      "try_it": "挑一个滚动动效示例，慢慢滚一次再快速滚一次，留意文字能否读完以及哪里适合停住。"
+    },
+    {
+      "id": 72,
+      "collection": "原帖",
+      "category": "前端与交互",
+      "name": "Three.js 官方示例",
+      "url": "https://threejs.org/examples/",
+      "try_it": "选一个材质或光照示例拖动相机，固定视角比较参数变化，找出高光从锐利变柔和的原因。"
+    },
+    {
+      "id": 73,
+      "collection": "原帖",
+      "category": "前端与交互",
+      "name": "Shadertoy",
+      "url": "https://www.shadertoy.com/",
+      "try_it": "找一幅你喜欢的程序画面，查看作者给出的代码，只追踪时间变量怎样影响一个局部图形。"
+    },
+    {
+      "id": 74,
+      "collection": "原帖",
+      "category": "前端与交互",
+      "name": "The Book of Shaders",
+      "url": "https://thebookofshaders.com/",
+      "try_it": "从平滑插值或造型函数章节开始，用一个变量控制边缘软硬，再用同样做法画自己的遮罩。"
+    },
+    {
+      "id": 75,
+      "collection": "原帖",
+      "category": "前端与交互",
+      "name": "Bruno Simon",
+      "url": "https://bruno-simon.com/",
+      "try_it": "开车逛作者的 3D 作品集，记下你第一次知道“这里可以过去”的那一刻，找给出提示的场景元素。"
+    },
+    {
+      "id": 76,
+      "collection": "原帖",
+      "category": "前端与交互",
+      "name": "Lusion",
+      "url": "https://lusion.co/",
+      "try_it": "体验一个沉浸项目，停在页面切换处观察景深、遮挡和滚动速度怎样把两个场景连起来。"
+    },
+    {
+      "id": 77,
+      "collection": "原帖",
+      "category": "前端与交互",
+      "name": "Active Theory",
+      "url": "https://activetheory.net/",
+      "try_it": "进一个互动项目，记录进入、获得控制权、第一次响应三个节点，评估漫长加载后用户是否知道怎么玩。"
+    },
+    {
+      "id": 78,
+      "collection": "原帖",
+      "category": "前端与交互",
+      "name": "Framer Gallery",
+      "url": "https://www.framer.com/gallery/",
+      "try_it": "从画廊点进真实网站，把窗口从宽拖到窄，看视觉中心是重新排版还是被简单裁掉。"
+    },
+    {
+      "id": 79,
+      "collection": "原帖",
+      "category": "前端与交互",
+      "name": "Motion 官方示例",
+      "url": "https://motion.dev/examples",
+      "try_it": "对比两个布局动画案例，关注元素增删时其他元素如何让位，再选一种节奏用到自己的列表。"
+    },
+    {
+      "id": 80,
+      "collection": "原帖",
+      "category": "前端与交互",
+      "name": "React Bits",
+      "url": "https://reactbits.dev/",
+      "try_it": "选一个文字或背景组件，在预览里降低效果强度，检查按钮和正文何时重新成为视觉重点。"
+    },
+    {
+      "id": 81,
+      "collection": "原帖",
+      "category": "前端与交互",
+      "name": "coss ui",
+      "url": "https://coss.com/ui",
+      "try_it": "找一个实际表单组件，用键盘从上到下操作，观察输入错误后焦点、边框和提示如何配合。"
+    },
+    {
+      "id": 82,
+      "collection": "原帖",
+      "category": "前端与交互",
+      "name": "Josh W. Comeau",
+      "url": "https://www.joshwcomeau.com/",
+      "try_it": "挑一篇带交互小实验的文章，先猜参数变化的方向再拖滑块，核对自己是否理解了原理。"
+    },
+    {
+      "id": 83,
+      "collection": "原帖",
+      "category": "前端与交互",
+      "name": "Rauno Freiberg",
+      "url": "https://rauno.me/",
+      "try_it": "读一项界面细节研究，自己先操作再看解释，分辨“跟手”是来自延迟、位移还是反馈位置。"
+    },
+    {
+      "id": 84,
+      "collection": "原帖",
+      "category": "前端与交互",
+      "name": "Emil Kowalski",
+      "url": "https://emilkowal.ski/",
+      "try_it": "找一个抽屉或弹层动画讲解，用同一个手势慢拖和快甩，记下松手后元素如何收尾。"
+    },
+    {
+      "id": 85,
+      "collection": "原帖",
+      "category": "字体与配色",
+      "name": "Typewolf",
+      "url": "https://www.typewolf.com/",
+      "try_it": "从网页案例找一组标题和正文字体，记录两者如何通过宽度、字重或衬线形成区别。"
+    },
+    {
+      "id": 86,
+      "collection": "原帖",
+      "category": "字体与配色",
+      "name": "Fonts In Use",
+      "url": "https://fontsinuse.com/",
+      "try_it": "按字体或媒介查看真实印刷案例，对照同一款字在书封大标题与内页小字中的效果。"
+    },
+    {
+      "id": 87,
+      "collection": "原帖",
+      "category": "字体与配色",
+      "name": "Google Fonts",
+      "url": "https://fonts.google.com/",
+      "try_it": "用你的真实标题作试排文字，切换字重并检查中英文、数字和标点是否都能正确显示。"
+    },
+    {
+      "id": 88,
+      "collection": "原帖",
+      "category": "字体与配色",
+      "name": "Fontshare",
+      "url": "https://www.fontshare.com/",
+      "try_it": "挑两个备选字族，用相同字距排一行英文，观察字面宽度变化对标题换行的影响。"
+    },
+    {
+      "id": 89,
+      "collection": "原帖",
+      "category": "字体与配色",
+      "name": "Butterick's Practical Typography",
+      "url": "https://practicaltypography.com/",
+      "try_it": "把现成网页的一段正文放在手边，对照书中的排版建议，只改行长与行距，再读一遍。"
+    },
+    {
+      "id": 90,
+      "collection": "原帖",
+      "category": "字体与配色",
+      "name": "Utopia",
+      "url": "https://utopia.fyi/",
+      "try_it": "给手机和桌面分别设正文字号，查看流式字号曲线，再用最窄屏检验标题会在哪个词换行。"
+    },
+    {
+      "id": 91,
+      "collection": "原帖",
+      "category": "字体与配色",
+      "name": "Coolors",
+      "url": "https://coolors.co/",
+      "try_it": "先锁定品牌主色，再逐个比较其他色块，挑出一个适合长文背景、一个适合按钮的颜色。"
+    },
+    {
+      "id": 92,
+      "collection": "原帖",
+      "category": "字体与配色",
+      "name": "Realtime Colors",
+      "url": "https://www.realtimecolors.com/",
+      "try_it": "把背景、文字与强调色填进实时页面，用真实标题检查色票的对比关系是否足以支撑阅读。"
+    },
+    {
+      "id": 93,
+      "collection": "原帖",
+      "category": "字体与配色",
+      "name": "Radix Colors",
+      "url": "https://www.radix-ui.com/colors",
+      "try_it": "从同一个色阶分别挑页面底色、悬停底色、边框和文字，再检查深色主题下四者层级。"
+    },
+    {
+      "id": 94,
+      "collection": "原帖",
+      "category": "字体与配色",
+      "name": "tweakcn",
+      "url": "https://tweakcn.com/",
+      "try_it": "在同一个组件预览里改圆角、阴影和主题色，比较改完后输入框与按钮是否仍像一家产品。"
+    },
+    {
+      "id": 95,
+      "collection": "原帖",
+      "category": "日常收集灵感",
+      "name": "Pinterest",
+      "url": "https://www.pinterest.com/",
+      "try_it": "从一张明确方向的图出发建立画板，给每张收藏写一个理由，例如“逆光轮廓”，下次能搜回来。"
+    },
+    {
+      "id": 96,
+      "collection": "原帖",
+      "category": "日常收集灵感",
+      "name": "Are.na",
+      "url": "https://www.are.na/",
+      "try_it": "为一个题目建频道，把参考图与原文链接并排收好，给它们加一条能解释关联的笔记。"
+    },
+    {
+      "id": 97,
+      "collection": "原帖",
+      "category": "日常收集灵感",
+      "name": "Cosmos",
+      "url": "https://www.cosmos.so/",
+      "try_it": "围绕一个形容词搜图，再用材质或颜色把结果缩小，留下三张能服务同一个项目的参考。"
+    },
+    {
+      "id": 98,
+      "collection": "原帖",
+      "category": "日常收集灵感",
+      "name": "Savee",
+      "url": "https://savee.com/",
+      "try_it": "挑一组图像先不看说明，只按留白、色块或视线方向分类，再决定哪些适合放进同一张情绪板。"
+    },
+    {
+      "id": 99,
+      "collection": "原帖",
+      "category": "日常收集灵感",
+      "name": "It's Nice That",
+      "url": "https://www.itsnicethat.com/",
+      "try_it": "从一个插画或品牌项目点回作者网站，阅读制作背景，记录最终成品背后的一个取舍。"
+    },
+    {
+      "id": 100,
+      "collection": "原帖",
+      "category": "日常收集灵感",
+      "name": "Brand New",
+      "url": "https://www.underconsideration.com/brandnew/",
+      "try_it": "把一次品牌更新的前后版本并排缩小，对照标志、字体与应用场景，看看改变主要发生在哪一层。"
+    },
+    {
+      "id": 101,
+      "collection": "补充",
+      "category": "前端与交互",
+      "name": "Rive",
+      "url": "https://rive.app/",
+      "try_it": "从交互式角色或按钮案例入手；分别触发悬停和按下，记录每一次输入对应的动画状态。"
+    },
+    {
+      "id": 102,
+      "collection": "补充",
+      "category": "3D 与渲染",
+      "name": "Spline",
+      "url": "https://spline.design/",
+      "try_it": "打开浏览器中的 3D 产品场景，转动相机找轮廓最清楚的角度，用同一构图试两种材质。"
+    },
+    {
+      "id": 103,
+      "collection": "补充",
+      "category": "前端与交互",
+      "name": "Theatre.js",
+      "url": "https://www.theatrejs.com/",
+      "try_it": "从蝴蝶飞行示例观察关键帧的位置与旋转；给自己的镜头加一个停顿，再检查速度曲线。"
+    },
+    {
+      "id": 104,
+      "collection": "补充",
+      "category": "前端与交互",
+      "name": "Easings.net",
+      "url": "https://easings.net/",
+      "try_it": "并排试 easeOutCubic 和 easeOutBack。前者减速落定，后者越过终点再回来，给同一张卡片试出两种手感。"
+    },
+    {
+      "id": 105,
+      "collection": "补充",
+      "category": "3D 与渲染",
+      "name": "Shader Park",
+      "url": "https://shaderpark.com/",
+      "try_it": "用 sphere 和 box 拼一块程序雕塑，分别试 union、blend，观察棱线什么时候变成圆滑过渡。"
+    },
+    {
+      "id": 106,
+      "collection": "补充",
+      "category": "3D 与渲染",
+      "name": "ambientCG",
+      "url": "https://ambientcg.com/",
+      "try_it": "找一组石材的 PBR 贴图，在自己的材质球上开关法线与粗糙度，比较哪张图负责凹凸、哪张负责反光。"
+    },
+    {
+      "id": 107,
+      "collection": "补充",
+      "category": "电影画面与镜头参考",
+      "name": "Timeline of Historical Colors in Photography and Film",
+      "url": "https://filmcolors.org/",
+      "try_it": "沿时间线打开 Tinting 和 Toning 的胶片样本，分别观察亮部与暗部如何着色，为复古调色挑一个具体工艺。"
+    },
+    {
+      "id": 108,
+      "collection": "补充",
+      "category": "字体与配色",
+      "name": "Axis-Praxis",
+      "url": "https://www.axis-praxis.org/",
+      "try_it": "输入相同的英文标题，在支持宽度轴的可变字体上拖动字宽，录下标题从疏朗到紧凑的变化。"
+    },
+    {
+      "id": 109,
+      "collection": "补充",
+      "category": "字体与配色",
+      "name": "Wakamai Fondue",
+      "url": "https://wakamaifondue.com/",
+      "try_it": "拖入自己的字体文件，检查支持的 OpenType 特性和可变轴，再决定标题能否启用替代字形。"
+    },
+    {
+      "id": 110,
+      "collection": "补充",
+      "category": "字体与配色",
+      "name": "OKLCH Color Picker",
+      "url": "https://oklch.com/",
+      "try_it": "粘贴品牌色，固定色相和色度，只调整明度做一列色阶，再看哪些颜色超出了 sRGB。"
+    },
+    {
+      "id": 111,
+      "collection": "补充",
+      "category": "字体与配色",
+      "name": "Huemint",
+      "url": "https://huemint.com/",
+      "try_it": "选品牌或网站场景，在模拟版面上比较生成的配色，挑出标题和背景分得最清的一组。"
+    },
+    {
+      "id": 112,
+      "collection": "补充",
+      "category": "日常收集灵感",
+      "name": "The Public Domain Review",
+      "url": "https://publicdomainreview.org/",
+      "try_it": "从 Collections 找老地图、版画或早期影像，沿来源链接回到收藏机构，记录可引用的原件和权利标注。"
+    }
+  ]
+}
